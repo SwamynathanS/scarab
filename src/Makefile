@@ -35,7 +35,7 @@ gpf: BUILD_TYPE := Gprof
 gpf: $(BUILD_DIR_PREFIX)/gpf/scarab_phony ## Build Scarab in Gprof mode
 
 pin_exec:
-	make SCARAB_DIR=$(SRCPWD) pin_exec --directory pin/pin_exec	 --no-print-directory
+	make SCARAB_DIR=$(SRCPWD) pin_exec --directory pin/pin_exec --no-print-directory
 
 clean_pin_exec:
 	make --directory pin/pin_exec clean --no-print-directory
